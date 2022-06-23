@@ -1,0 +1,5 @@
+es_extended --> client --> function
+
+ESX.ShowNotification = function(msg)
+    TriggerEvent("rhlm_notify:Alert", "🔔", msg, 5000, 'rhlm')
+end
